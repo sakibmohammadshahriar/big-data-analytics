@@ -1,0 +1,87 @@
+Name,Age,Gender,Income,JoinDate,Subscription,Email,Country,Feedback
+David,20.0,Unknown,90576.0,2020-02-16,No,unknown@example.com,USA,No Feedback
+David,20.0,Unknown,64288.0,2018-02-21,No,unknown@example.com,Canada,No Feedback
+Bob,20.0,Unknown,39551.0,2019-04-17,No,unknown@example.com,Unknown,No Feedback
+Charlie,20.0,Female,57072.0,2021-04-08,No,unknown@example.com,India,Bad
+Alice,20.0,Unknown,57072.0,2023-09-18,No,unknown@example.com,India,No Feedback
+Eva,19.0,Unknown,57072.0,2019-07-29,No,unknown@example.com,UK,Bad
+Charlie,20.0,Male,57072.0,2023-04-08,No,unknown@example.com,USA,Good
+Charlie,20.0,Female,31110.0,2022-06-03,No,unknown@example.com,Canada,Average
+David,20.0,Female,68653.0,2022-06-03,No,unknown@example.com,India,No Feedback
+Charlie,20.0,Male,57072.0,2019-09-01,Yes,user6@mail.com,Unknown,No Feedback
+Charlie,20.0,Unknown,57072.0,2023-07-30,Yes,unknown@example.com,India,No Feedback
+Henry,20.0,Male,57072.0,2018-04-04,No,unknown@example.com,Canada,Average
+Henry,20.0,Male,57072.0,2018-04-04,Yes,user25@mail.com,USA,No Feedback
+Bob,20.0,Female,57072.0,2021-01-06,No,unknown@example.com,UK,Bad
+Charlie,20.0,Female,57072.0,2021-08-01,No,unknown@example.com,UK,No Feedback
+Frank,20.0,Unknown,81339.0,2020-04-16,Yes,user30@mail.com,USA,Bad
+Eva,20.0,Male,57072.0,2019-06-17,Yes,unknown@example.com,UK,Bad
+Alice,20.0,Female,57072.0,2019-06-17,No,unknown@example.com,USA,Bad
+Bob,20.0,Female,57072.0,2021-09-26,No,unknown@example.com,Unknown,No Feedback
+David,20.0,Unknown,57072.0,2020-07-22,No,user20@mail.com,India,Bad
+Frank,20.0,Unknown,54617.0,2020-07-22,No,user22@mail.com,India,No Feedback
+Alice,20.0,Unknown,57072.0,2022-09-11,No,unknown@example.com,UK,No Feedback
+Henry,20.0,Female,20726.0,2018-06-21,No,unknown@example.com,Canada,Bad
+David,20.0,Male,57072.0,2018-06-21,No,unknown@example.com,India,Average
+Bob,40.0,Unknown,57072.0,2021-02-28,No,user35@mail.com,India,Good
+Grace,20.0,Male,57072.0,2021-02-28,No,user10@mail.com,UK,No Feedback
+Eva,20.0,Male,72035.0,2021-02-10,No,user23@mail.com,India,Bad
+Henry,45.0,Male,95298.0,2022-10-30,Yes,unknown@example.com,Canada,No Feedback
+David,20.0,Female,57072.0,2022-10-30,Yes,unknown@example.com,India,Average
+Alice,20.0,Male,57072.0,2018-10-14,Yes,unknown@example.com,Unknown,No Feedback
+Alice,20.0,Female,57072.0,2023-03-24,No,user17@mail.com,USA,Good
+Alice,22.0,Male,73683.0,2023-03-24,Yes,user27@mail.com,Canada,Good
+Grace,21.0,Female,57072.0,2018-01-25,No,unknown@example.com,India,Bad
+Charlie,20.0,Female,57072.0,2018-06-05,No,user36@mail.com,USA,Bad
+Eva,35.0,Male,56372.0,2021-09-16,No,unknown@example.com,UK,Bad
+Henry,20.0,Unknown,57072.0,2020-11-27,No,unknown@example.com,Canada,No Feedback
+Charlie,20.0,Male,34524.0,2021-06-18,No,unknown@example.com,Unknown,No Feedback
+Eva,20.0,Unknown,57072.0,2018-09-18,No,unknown@example.com,Unknown,No Feedback
+Frank,36.0,Female,67555.0,2020-11-01,No,unknown@example.com,Unknown,Good
+Henry,20.0,Female,57072.0,2023-12-23,Yes,unknown@example.com,Unknown,Good
+Grace,20.0,Female,57072.0,2023-08-07,No,unknown@example.com,USA,Good
+Henry,56.0,Unknown,57072.0,2020-02-25,No,unknown@example.com,UK,Average
+Charlie,20.0,Male,57072.0,2022-06-11,Yes,unknown@example.com,India,Average
+Bob,20.0,Male,57072.0,2019-04-26,No,unknown@example.com,Unknown,Average
+Frank,20.0,Female,41823.0,2020-03-10,No,user14@mail.com,Canada,No Feedback
+Frank,48.0,Male,57072.0,2019-05-23,No,unknown@example.com,Canada,Good
+Bob,20.0,Female,57072.0,2022-07-23,Yes,unknown@example.com,Canada,No Feedback
+Frank,20.0,Unknown,57072.0,2022-12-27,No,unknown@example.com,India,No Feedback
+Charlie,20.0,Unknown,33376.0,2018-11-15,No,unknown@example.com,USA,No Feedback
+Alice,20.0,Male,57072.0,2023-08-23,Yes,user23@mail.com,UK,Good
+Eva,20.0,Male,57072.0,2021-10-31,Yes,user41@mail.com,Unknown,No Feedback
+David,20.0,Female,73809.0,2018-11-05,No,unknown@example.com,USA,Bad
+Grace,20.0,Male,60169.0,2018-11-05,Yes,user10@mail.com,India,Average
+Alice,20.0,Female,24827.0,2023-10-28,Yes,unknown@example.com,USA,Bad
+Grace,20.0,Male,57072.0,2023-04-08,No,unknown@example.com,India,No Feedback
+Frank,20.0,Male,57072.0,2023-09-16,Yes,unknown@example.com,India,No Feedback
+Charlie,20.0,Female,57072.0,2022-11-02,No,unknown@example.com,Unknown,No Feedback
+Charlie,20.0,Male,21777.0,2018-05-20,Yes,unknown@example.com,Unknown,No Feedback
+Eva,20.0,Female,22292.0,2019-08-27,Yes,user23@mail.com,India,Bad
+Frank,20.0,Male,59473.0,2020-09-08,No,user13@mail.com,Canada,No Feedback
+David,20.0,Male,57072.0,2019-01-06,Yes,unknown@example.com,India,Bad
+David,20.0,Unknown,57072.0,2021-06-16,Yes,unknown@example.com,Unknown,No Feedback
+Alice,20.0,Male,57072.0,2023-07-08,No,user45@mail.com,USA,Bad
+David,20.0,Unknown,57072.0,2020-05-13,No,unknown@example.com,Unknown,Bad
+Frank,25.0,Male,57072.0,2018-03-22,No,user5@mail.com,Unknown,Average
+Frank,20.0,Female,57072.0,2019-03-31,No,unknown@example.com,UK,Average
+Bob,42.0,Female,57072.0,2018-08-15,Yes,unknown@example.com,Canada,Bad
+Charlie,20.0,Unknown,54623.0,2021-04-28,No,user39@mail.com,Canada,No Feedback
+Eva,20.0,Male,57072.0,2020-08-01,Yes,unknown@example.com,UK,No Feedback
+Grace,20.0,Female,99572.0,2023-05-23,No,unknown@example.com,Unknown,Average
+Bob,20.0,Unknown,57072.0,2023-05-23,Yes,unknown@example.com,Canada,Average
+Henry,20.0,Female,57072.0,2019-10-15,No,unknown@example.com,Canada,No Feedback
+Frank,20.0,Female,57072.0,2023-02-18,No,unknown@example.com,UK,No Feedback
+Bob,44.0,Female,57072.0,2023-06-07,No,unknown@example.com,India,Average
+Frank,50.0,Male,57072.0,2021-02-11,No,user19@mail.com,Unknown,Good
+Charlie,20.0,Female,57072.0,2021-02-11,Yes,user28@mail.com,Unknown,Average
+Frank,20.0,Female,57072.0,2022-08-04,No,unknown@example.com,Canada,No Feedback
+Charlie,20.0,Female,57072.0,2018-10-23,No,user7@mail.com,USA,Bad
+Grace,31.0,Male,57072.0,2021-07-08,Yes,unknown@example.com,Unknown,Average
+Henry,20.0,Male,37719.0,2023-12-13,No,unknown@example.com,UK,No Feedback
+Bob,20.0,Unknown,57072.0,2023-12-13,No,unknown@example.com,UK,Bad
+Bob,37.0,Female,35850.0,2023-12-13,No,unknown@example.com,USA,Good
+David,20.0,Male,98631.0,2020-12-15,Yes,user26@mail.com,UK,Average
+Bob,20.0,Female,57072.0,2023-05-18,Yes,user14@mail.com,Canada,No Feedback
+Eva,20.0,Male,57072.0,2021-11-05,No,user45@mail.com,UK,Good
+Eva,57.0,Female,80658.0,2021-11-05,No,unknown@example.com,India,Average
