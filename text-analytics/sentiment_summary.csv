@@ -1,0 +1,8 @@
+sentiment_label,count,share
+Negative,7,1.8%
+Neutral,35,8.9%
+Positive,43,10.9%
+Slightly Negative,16,4.1%
+Slightly Positive,52,13.2%
+Very Negative,2,0.5%
+Very Positive,240,60.8%
