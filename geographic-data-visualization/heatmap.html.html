@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d0aebd36c28f19a293d28978eedd4384 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium@main/folium/templates/leaflet_heat.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d0aebd36c28f19a293d28978eedd4384" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d0aebd36c28f19a293d28978eedd4384 = L.map(
+                "map_d0aebd36c28f19a293d28978eedd4384",
+                {
+                    center: [35.648125856452076, 139.6608394775477],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_72d95d718fd8833350889376e84fd6bb = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_72d95d718fd8833350889376e84fd6bb.addTo(map_d0aebd36c28f19a293d28978eedd4384);
+        
+    
+            tile_layer_72d95d718fd8833350889376e84fd6bb.addTo(map_d0aebd36c28f19a293d28978eedd4384);
+        
+    
+            var circle_marker_59c4d0b1add47fa8062744968e815083 = L.circleMarker(
+                [35.70525837109636, 139.67385302751055],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d0aebd36c28f19a293d28978eedd4384);
+        
+    
+        var popup_e7dd16fd7bd5815ba3ff3ed53986787d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_08e140c1bc5104eb2d92dfea849a7fe2 = $(`<div id="html_08e140c1bc5104eb2d92dfea849a7fe2" style="width: 100.0%; height: 100.0%;">Tokyo | Urban</div>`)[0];
+                popup_e7dd16fd7bd5815ba3ff3ed53986787d.setContent(html_08e140c1bc5104eb2d92dfea849a7fe2);
+            
+        
+
+        circle_marker_59c4d0b1add47fa8062744968e815083.bindPopup(popup_e7dd16fd7bd5815ba3ff3ed53986787d)
+        ;
+
+        
+    
+    
+            var circle_marker_3fa9bef824ca6e2e247e701867bbc196 = L.circleMarker(
+                [35.759213837139626, 139.70843655534787],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d0aebd36c28f19a293d28978eedd4384);
+        
+    
+        var popup_92855505cf790a33ae6cf2f777b22187 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_51150714f70ed6255c366b20efce7416 = $(`<div id="html_51150714f70ed6255c366b20efce7416" style="width: 100.0%; height: 100.0%;">Tokyo | Urban</div>`)[0];
+                popup_92855505cf790a33ae6cf2f777b22187.setContent(html_51150714f70ed6255c366b20efce7416);
+            
+        
+
+        circle_marker_3fa9bef824ca6e2e247e701867bbc196.bindPopup(popup_92855505cf790a33ae6cf2f777b22187)
+        ;
+
+        
+    
+    
+            var circle_marker_cec5dae30015651af0bdc3b82ff30eec = L.circleMarker(
+                [35.62160406980613, 139.61600919591712],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d0aebd36c28f19a293d28978eedd4384);
+        
+    
+        var popup_e92e2b0952ba6856d83e457083d4f93a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f669a76f5e363c15a3e5c50dacb0f774 = $(`<div id="html_f669a76f5e363c15a3e5c50dacb0f774" style="width: 100.0%; height: 100.0%;">Tokyo | Urban</div>`)[0];
+                popup_e92e2b0952ba6856d83e457083d4f93a.setContent(html_f669a76f5e363c15a3e5c50dacb0f774);
+            
+        
+
+        circle_marker_cec5dae30015651af0bdc3b82ff30eec.bindPopup(popup_e92e2b0952ba6856d83e457083d4f93a)
+        ;
+
+        
+    
+    
+            var circle_marker_ad3203dd4124e38bd3503190b8fcd2f7 = L.circleMarker(
+                [35.58289688137966, 139.73765895660105],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d0aebd36c28f19a293d28978eedd4384);
+        
+    
+        var popup_0218dbfed23c5e8a59cef6f399f0ad20 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a6c1b20083aa66ab6548b0adc85f5262 = $(`<div id="html_a6c1b20083aa66ab6548b0adc85f5262" style="width: 100.0%; height: 100.0%;">Tokyo | Urban</div>`)[0];
+                popup_0218dbfed23c5e8a59cef6f399f0ad20.setContent(html_a6c1b20083aa66ab6548b0adc85f5262);
+            
+        
+
+        circle_marker_ad3203dd4124e38bd3503190b8fcd2f7.bindPopup(popup_0218dbfed23c5e8a59cef6f399f0ad20)
+        ;
+
+        
+    
+    
+            var circle_marker_f01c5d858bc8ba56c24d5845216470ba = L.circleMarker(
+                [35.597422520756915, 139.61937620138238],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d0aebd36c28f19a293d28978eedd4384);
+        
+    
+        var popup_133a4740377675d4694e9f29547961aa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2ba60c2ce536498fb1f354a59f5488e1 = $(`<div id="html_2ba60c2ce536498fb1f354a59f5488e1" style="width: 100.0%; height: 100.0%;">Tokyo | Urban</div>`)[0];
+                popup_133a4740377675d4694e9f29547961aa.setContent(html_2ba60c2ce536498fb1f354a59f5488e1);
+            
+        
+
+        circle_marker_f01c5d858bc8ba56c24d5845216470ba.bindPopup(popup_133a4740377675d4694e9f29547961aa)
+        ;
+
+        
+    
+    
+            var circle_marker_30cfec34778daf4170e69daa96f3b264 = L.circleMarker(
+                [35.593819276980454, 139.66551855698717],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d0aebd36c28f19a293d28978eedd4384);
+        
+    
+        var popup_8b4af86f581da048da0e80fda717aac5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c8c4872766c558620d464f4d92ff705e = $(`<div id="html_c8c4872766c558620d464f4d92ff705e" style="width: 100.0%; height: 100.0%;">Tokyo | Urban</div>`)[0];
+                popup_8b4af86f581da048da0e80fda717aac5.setContent(html_c8c4872766c558620d464f4d92ff705e);
+            
+        
+
+        circle_marker_30cfec34778daf4170e69daa96f3b264.bindPopup(popup_8b4af86f581da048da0e80fda717aac5)
+        ;
+
+        
+    
+    
+            var circle_marker_db3f2eb79dd31d6ef97755f16560ca53 = L.circleMarker(
+                [35.604007507027774, 139.65251349601246],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d0aebd36c28f19a293d28978eedd4384);
+        
+    
+        var popup_aaaf8d5c5a0d76238f04bd4a36c8a26d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5e0aa526daef3c2b866f517884a595ed = $(`<div id="html_5e0aa526daef3c2b866f517884a595ed" style="width: 100.0%; height: 100.0%;">Tokyo | Urban</div>`)[0];
+                popup_aaaf8d5c5a0d76238f04bd4a36c8a26d.setContent(html_5e0aa526daef3c2b866f517884a595ed);
+            
+        
+
+        circle_marker_db3f2eb79dd31d6ef97755f16560ca53.bindPopup(popup_aaaf8d5c5a0d76238f04bd4a36c8a26d)
+        ;
+
+        
+    
+    
+            var circle_marker_95179cc1b80af2db871ab4c5789f1077 = L.circleMarker(
+                [35.627600342679656, 139.6335649452078],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d0aebd36c28f19a293d28978eedd4384);
+        
+    
+        var popup_ac86729a4d6e8fbcfc315b8a1f129ed7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_de017137ed38452fee50f2d15de2d6b3 = $(`<div id="html_de017137ed38452fee50f2d15de2d6b3" style="width: 100.0%; height: 100.0%;">Tokyo | Urban</div>`)[0];
+                popup_ac86729a4d6e8fbcfc315b8a1f129ed7.setContent(html_de017137ed38452fee50f2d15de2d6b3);
+            
+        
+
+        circle_marker_95179cc1b80af2db871ab4c5789f1077.bindPopup(popup_ac86729a4d6e8fbcfc315b8a1f129ed7)
+        ;
+
+        
+    
+    
+            var circle_marker_bfa677784afe0c8b6d707b428e151323 = L.circleMarker(
+                [35.71492458091111, 139.64293588325444],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d0aebd36c28f19a293d28978eedd4384);
+        
+    
+        var popup_a884c7ff19103ad735294e49ad137a99 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_07b90984a92f1fb8c37804c2a6393de9 = $(`<div id="html_07b90984a92f1fb8c37804c2a6393de9" style="width: 100.0%; height: 100.0%;">Tokyo | Urban</div>`)[0];
+                popup_a884c7ff19103ad735294e49ad137a99.setContent(html_07b90984a92f1fb8c37804c2a6393de9);
+            
+        
+
+        circle_marker_bfa677784afe0c8b6d707b428e151323.bindPopup(popup_a884c7ff19103ad735294e49ad137a99)
+        ;
+
+        
+    
+    
+            var circle_marker_1c3ac56c50e3845c2d22191696ff639c = L.circleMarker(
+                [35.609313130722555, 139.7476366519944],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d0aebd36c28f19a293d28978eedd4384);
+        
+    
+        var popup_a3259e95de0b310db1c77ca78a52c5dd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a2815418606048ca5c131f9cfc764445 = $(`<div id="html_a2815418606048ca5c131f9cfc764445" style="width: 100.0%; height: 100.0%;">Tokyo | Urban</div>`)[0];
+                popup_a3259e95de0b310db1c77ca78a52c5dd.setContent(html_a2815418606048ca5c131f9cfc764445);
+            
+        
+
+        circle_marker_1c3ac56c50e3845c2d22191696ff639c.bindPopup(popup_a3259e95de0b310db1c77ca78a52c5dd)
+        ;
+
+        
+    
+    
+            var circle_marker_89924f0af504e6c6562ec8a75d903b80 = L.circleMarker(
+                [35.77237786692124, 139.66190780974316],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d0aebd36c28f19a293d28978eedd4384);
+        
+    
+        var popup_526d0be6c0dc1ca9588b3a13eec65919 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_33c9297f548b7bdf0b0d56321d160837 = $(`<div id="html_33c9297f548b7bdf0b0d56321d160837" style="width: 100.0%; height: 100.0%;">Tokyo | Urban</div>`)[0];
+                popup_526d0be6c0dc1ca9588b3a13eec65919.setContent(html_33c9297f548b7bdf0b0d56321d160837);
+            
+        
+
+        circle_marker_89924f0af504e6c6562ec8a75d903b80.bindPopup(popup_526d0be6c0dc1ca9588b3a13eec65919)
+        ;
+
+        
+    
+    
+            var circle_marker_98b816257f1654af2d699487c00bfec1 = L.circleMarker(
+                [35.74838724701278, 139.54937845053837],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d0aebd36c28f19a293d28978eedd4384);
+        
+    
+        var popup_07ca439b470ae6dfe11d50cdc6950c8c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dff7109f7d4364905ffd87f02d5967af = $(`<div id="html_dff7109f7d4364905ffd87f02d5967af" style="width: 100.0%; height: 100.0%;">Tokyo | Urban</div>`)[0];
+                popup_07ca439b470ae6dfe11d50cdc6950c8c.setContent(html_dff7109f7d4364905ffd87f02d5967af);
+            
+        
+
+        circle_marker_98b816257f1654af2d699487c00bfec1.bindPopup(popup_07ca439b470ae6dfe11d50cdc6950c8c)
+        ;
+
+        
+    
+    
+            var circle_marker_eadbf211fddbc7ceca4fd16b05b41dee = L.circleMarker(
+                [35.52418956182599, 139.55796350852546],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d0aebd36c28f19a293d28978eedd4384);
+        
+    
+        var popup_d331b0ad2a04e30851590ce2b3654e0d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9bd1f471a381adf4bdceb62af24bb6c7 = $(`<div id="html_9bd1f471a381adf4bdceb62af24bb6c7" style="width: 100.0%; height: 100.0%;">Tokyo | Urban</div>`)[0];
+                popup_d331b0ad2a04e30851590ce2b3654e0d.setContent(html_9bd1f471a381adf4bdceb62af24bb6c7);
+            
+        
+
+        circle_marker_eadbf211fddbc7ceca4fd16b05b41dee.bindPopup(popup_d331b0ad2a04e30851590ce2b3654e0d)
+        ;
+
+        
+    
+    
+            var circle_marker_d6521e5a08c07cd80d950583d146e63e = L.circleMarker(
+                [35.6330135932483, 139.63997173737138],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d0aebd36c28f19a293d28978eedd4384);
+        
+    
+        var popup_1a34919d03e428d3f2b1ee19cba4fce8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0a2041885b93361126af2a8246cb3ea9 = $(`<div id="html_0a2041885b93361126af2a8246cb3ea9" style="width: 100.0%; height: 100.0%;">Tokyo | Urban</div>`)[0];
+                popup_1a34919d03e428d3f2b1ee19cba4fce8.setContent(html_0a2041885b93361126af2a8246cb3ea9);
+            
+        
+
+        circle_marker_d6521e5a08c07cd80d950583d146e63e.bindPopup(popup_1a34919d03e428d3f2b1ee19cba4fce8)
+        ;
+
+        
+    
+    
+            var circle_marker_c919d609a49c5ec0e56d324502ad6d45 = L.circleMarker(
+                [35.70023883123845, 139.68194116529588],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d0aebd36c28f19a293d28978eedd4384);
+        
+    
+        var popup_719bf758d4a72b827d3f4e9079219144 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8633eb3cc426223bf218cad90f746c11 = $(`<div id="html_8633eb3cc426223bf218cad90f746c11" style="width: 100.0%; height: 100.0%;">Tokyo | Urban</div>`)[0];
+                popup_719bf758d4a72b827d3f4e9079219144.setContent(html_8633eb3cc426223bf218cad90f746c11);
+            
+        
+
+        circle_marker_c919d609a49c5ec0e56d324502ad6d45.bindPopup(popup_719bf758d4a72b827d3f4e9079219144)
+        ;
+
+        
+    
+    
+            var circle_marker_9f39377c867b7b98bae63e68bbb3b64b = L.circleMarker(
+                [35.69443926617, 139.71765474292937],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d0aebd36c28f19a293d28978eedd4384);
+        
+    
+        var popup_e1459a5fb10e7de54842a5d4e1931cdb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_31785ef5f225deac9f0f952aeb44df24 = $(`<div id="html_31785ef5f225deac9f0f952aeb44df24" style="width: 100.0%; height: 100.0%;">Tokyo | Urban</div>`)[0];
+                popup_e1459a5fb10e7de54842a5d4e1931cdb.setContent(html_31785ef5f225deac9f0f952aeb44df24);
+            
+        
+
+        circle_marker_9f39377c867b7b98bae63e68bbb3b64b.bindPopup(popup_e1459a5fb10e7de54842a5d4e1931cdb)
+        ;
+
+        
+    
+    
+            var circle_marker_f711aad346531efa810059a9adabe6ab = L.circleMarker(
+                [35.68411518845358, 139.66754827313775],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d0aebd36c28f19a293d28978eedd4384);
+        
+    
+        var popup_8a945a121feb6a7bd9883a9134fa3542 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1781c4328f708ea2e7b75fb8ddcf5973 = $(`<div id="html_1781c4328f708ea2e7b75fb8ddcf5973" style="width: 100.0%; height: 100.0%;">Tokyo | Urban</div>`)[0];
+                popup_8a945a121feb6a7bd9883a9134fa3542.setContent(html_1781c4328f708ea2e7b75fb8ddcf5973);
+            
+        
+
+        circle_marker_f711aad346531efa810059a9adabe6ab.bindPopup(popup_8a945a121feb6a7bd9883a9134fa3542)
+        ;
+
+        
+    
+    
+            var circle_marker_7679f0ff1fafce7abb078147dde6da5d = L.circleMarker(
+                [35.60886236749195, 139.60303960803316],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d0aebd36c28f19a293d28978eedd4384);
+        
+    
+        var popup_d6ab1d5a309f0c9267edc6b02dd7e7a6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7e8687c3fbeac571bd0493678b7bd98c = $(`<div id="html_7e8687c3fbeac571bd0493678b7bd98c" style="width: 100.0%; height: 100.0%;">Tokyo | Urban</div>`)[0];
+                popup_d6ab1d5a309f0c9267edc6b02dd7e7a6.setContent(html_7e8687c3fbeac571bd0493678b7bd98c);
+            
+        
+
+        circle_marker_7679f0ff1fafce7abb078147dde6da5d.bindPopup(popup_d6ab1d5a309f0c9267edc6b02dd7e7a6)
+        ;
+
+        
+    
+    
+            var circle_marker_d15ec687e3ab3935a8121a473041bd48 = L.circleMarker(
+                [35.63552828244889, 139.73891544928134],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d0aebd36c28f19a293d28978eedd4384);
+        
+    
+        var popup_6917aa05a66e2f02e7738189ed642647 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2b86da26db141cd0494ee76fb82f550c = $(`<div id="html_2b86da26db141cd0494ee76fb82f550c" style="width: 100.0%; height: 100.0%;">Tokyo | Urban</div>`)[0];
+                popup_6917aa05a66e2f02e7738189ed642647.setContent(html_2b86da26db141cd0494ee76fb82f550c);
+            
+        
+
+        circle_marker_d15ec687e3ab3935a8121a473041bd48.bindPopup(popup_6917aa05a66e2f02e7738189ed642647)
+        ;
+
+        
+    
+    
+            var circle_marker_74ed2e89dc733fa1227df995cc674508 = L.circleMarker(
+                [35.54530440573011, 139.70096533588318],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_d0aebd36c28f19a293d28978eedd4384);
+        
+    
+        var popup_d6f27adbaa42063cc29ed9e5082c202c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_25fe756229be47e45ad553d80a20aa8d = $(`<div id="html_25fe756229be47e45ad553d80a20aa8d" style="width: 100.0%; height: 100.0%;">Tokyo | Urban</div>`)[0];
+                popup_d6f27adbaa42063cc29ed9e5082c202c.setContent(html_25fe756229be47e45ad553d80a20aa8d);
+            
+        
+
+        circle_marker_74ed2e89dc733fa1227df995cc674508.bindPopup(popup_d6f27adbaa42063cc29ed9e5082c202c)
+        ;
+
+        
+    
+    
+            tile_layer_72d95d718fd8833350889376e84fd6bb.addTo(map_d0aebd36c28f19a293d28978eedd4384);
+        
+    
+            var heat_map_8d5f8c572accef45e49dab4bac70ced1 = L.heatLayer(
+                [[35.70525837109636, 139.67385302751055], [35.759213837139626, 139.70843655534787], [35.62160406980613, 139.61600919591712], [35.58289688137966, 139.73765895660105], [35.597422520756915, 139.61937620138238], [35.593819276980454, 139.66551855698717], [35.604007507027774, 139.65251349601246], [35.627600342679656, 139.6335649452078], [35.71492458091111, 139.64293588325444], [35.609313130722555, 139.7476366519944], [35.77237786692124, 139.66190780974316], [35.74838724701278, 139.54937845053837], [35.52418956182599, 139.55796350852546], [35.6330135932483, 139.63997173737138], [35.70023883123845, 139.68194116529588], [35.69443926617, 139.71765474292937], [35.68411518845358, 139.66754827313775], [35.60886236749195, 139.60303960803316], [35.63552828244889, 139.73891544928134], [35.54530440573011, 139.70096533588318]],
+                {
+  "minOpacity": 0.2,
+  "maxZoom": 12,
+  "radius": 12,
+  "blur": 18,
+}
+            );
+        
+    
+            heat_map_8d5f8c572accef45e49dab4bac70ced1.addTo(map_d0aebd36c28f19a293d28978eedd4384);
+        
+    
+            tile_layer_72d95d718fd8833350889376e84fd6bb.addTo(map_d0aebd36c28f19a293d28978eedd4384);
+        
+    
+            heat_map_8d5f8c572accef45e49dab4bac70ced1.addTo(map_d0aebd36c28f19a293d28978eedd4384);
+        
+</script>
+</html>
